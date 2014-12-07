@@ -5,5 +5,5 @@ data <- subset(data, subset = data$Date == dates[1] | data$Date == dates[2])
 
 z <- as.numeric(as.character(data[,3]))
 png("plot1.png")
-hist(z, col = "red", xlab = "Global Active Power (kilowatts)", main = "Global Active Power")
+hist(z, col = "red", xlab = "Global Active Power (Kilowatts)", main = "Global Active Power")
 dev.off()

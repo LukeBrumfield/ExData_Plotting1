@@ -11,7 +11,7 @@ z <- as.numeric(as.character(data$Sub_metering_3))
 png("plot3.png")
 
 
-plot(x, col = "black", type = "l", xaxt = "n")
+plot(x, col = "black", type = "l", xaxt = "n", ylab="Energy SubMetering", xlab = "")
 lines(y, col = "red", type = "l")
 lines(z, col = "blue", type = "l")
 axis(side = 1, at = c(0, 1440, 2880), labels = days)
