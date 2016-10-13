@@ -10,7 +10,6 @@ z <- as.numeric(as.character(data$Sub_metering_3))
 
 png("plot3.png")
 
-
 plot(x, col = "black", type = "l", xaxt = "n", ylab="Energy SubMetering", xlab = "")
 lines(y, col = "red", type = "l")
 lines(z, col = "blue", type = "l")
